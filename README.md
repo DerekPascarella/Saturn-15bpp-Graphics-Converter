@@ -1,7 +1,7 @@
 # Saturn 15bpp Graphics Converter
 A utility to convert between SEGA Saturn 15bpp graphic format and bitmaps.
 
-After dumping 15bpp graphics from a SEGA Saturn game (typically found in VDP2 RAM) and identifying its dimensions, `15bpp-2-bmp` can be used to convert said graphic data to a bitmap for editing. After editing the bitmap, it can be converted back to its original 15bpp graphic format using `bmp-2-15bpp`.
+After dumping 15bpp graphics from a SEGA Saturn game (typically used by VDP2) and identifying its dimensions, `15bpp-2-bmp` can be used to convert said graphic data to a bitmap for editing. After editing the bitmap, it can be converted back to its original 15bpp graphic format using `bmp-2-15bpp`.
 
 ## Current Version
 Saturn 15bpp Graphics Converter is currently at version [1.0](https://github.com/DerekPascarella/Saturn-15bpp-Graphics-Converter/releases/download/1.0/Saturn.15bpp.Graphics.Converter.v1.0.zip).
