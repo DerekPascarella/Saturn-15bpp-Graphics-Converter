@@ -33,7 +33,6 @@ elsif($width eq "" || $height eq "" || $width !~ /^[+-]?\d+$/ || $height !~ /^[+
 (my $outfile = $infile) =~ s/\.BMP//gi;
 
 # Status message.
-# Status message.
 print "\nbmp-2-15bpp v1.0\n";
 print "Convert bitmap to SEGA Saturn 15bpp graphic format.\n\n";
 print "Written by Derek Pascarella (ateam)\n\n";
