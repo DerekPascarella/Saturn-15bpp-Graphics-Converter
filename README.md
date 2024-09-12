@@ -9,11 +9,11 @@ Saturn 15bpp Graphics Converter is currently at version [1.0](https://github.com
 ## Usage
 Note that the output filename of `15bpp-2-bmp` will be the input filename with the `.BMP` extension appended (e.g., an input file named `TEX.BIN` will produce `TEX.BIN.BMP`).
 ```
-bmp-2-15bpp <BITMAP_FILE> <WIDTH> <HEIGHT>
+15bpp-2-bmp <15BPP_FILE> <WIDTH> <HEIGHT>
 ```
 Note that the output filename of `bmp-2-15bpp` will be the input filename with the `.BMP` extension removed (e.g., an input file named `TEX.BIN.BMP` will produce `TEX.BIN`).
 ```
-15bpp-2-bmp <15BPP_FILE> <WIDTH> <HEIGHT>
+bmp-2-15bpp <BITMAP_FILE> <WIDTH> <HEIGHT>
 ```
 
 ## Example Usage
