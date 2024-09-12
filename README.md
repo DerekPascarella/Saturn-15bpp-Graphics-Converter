@@ -17,11 +17,11 @@ Note that the output filename of `bmp-2-15bpp` will be the input filename with t
 ```
 
 ## Example Usage
-Convert a 320x224 15bpp graphics file named `TEX.BIN` to bitmap:
+Convert a 320x224 15bpp graphics file named `TEX.BIN` to bitmap.
 ```
 15bpp-2-bmp TEX.BIN 320 224
 ```
-Convert a 320x224 bitmap named `TEX.BIN.BMP` to 15bpp graphics format.
+Convert a 320x224 bitmap named `TEX.BIN.BMP` to 15bpp graphic format.
 ```
 bmp-2-15bpp TEX.BIN.BMP 320 224
 ```
