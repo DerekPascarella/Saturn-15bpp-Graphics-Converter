@@ -7,21 +7,21 @@ After dumping 15bpp graphics from a SEGA Saturn game (typically found in VDP2 RA
 Saturn 15bpp Graphics Converter is currently at version [1.0](https://github.com/DerekPascarella/Saturn-15bpp-Graphics-Converter/releases/download/1.0/Saturn.15bpp.Graphics.Converter.v1.0.zip).
 
 ## Usage
-Note that the output filename of `15bpp-2-bmp` will be the input filename with the ".BMP" extension appended (e.g., an input file named "TEX.BIN" will produce "TEX.BIN.BMP").
+Note that the output filename of `15bpp-2-bmp` will be the input filename with the `.BMP` extension appended (e.g., an input file named `TEX.BIN` will produce `TEX.BIN.BMP`).
 ```
 bmp-2-15bpp <BITMAP_FILE> <WIDTH> <HEIGHT>
 ```
-Note that the output filename of `bmp-2-15bpp` will be the input filename with the ".BMP" extension removed (e.g., an input file named "TEX.BIN.BMP" will produce "TEX.BIN").
+Note that the output filename of `bmp-2-15bpp` will be the input filename with the `.BMP` extension removed (e.g., an input file named `TEX.BIN.BMP` will produce `TEX.BIN`).
 ```
 15bpp-2-bmp <15BPP_FILE> <WIDTH> <HEIGHT>
 ```
 
 ## Example Usage
-Convert a 320x224 15bpp graphics file named "TEXT.BIN" to bitmap:
+Convert a 320x224 15bpp graphics file named `TEX.BIN` to bitmap:
 ```
 15bpp-2-bmp TEX.BIN 320 224
 ```
-Convert a 320x224 bitmap named "TEX.BIN.BMP" to 15bpp graphics format.
+Convert a 320x224 bitmap named `TEX.BIN.BMP` to 15bpp graphics format.
 ```
 bmp-2-15bpp TEX.BIN.BMP 320 224
 ```
