@@ -25,3 +25,8 @@ Convert a 320x224 bitmap named `TEX.BIN.BMP` to 15bpp graphic format.
 ```
 bmp-2-15bpp TEX.BIN.BMP 320 224
 ```
+
+## Tutorial
+[Malenko](https://segaxtreme.net/members/malenko.22808/) published a fantastic tutorial on the usage of this tool on the [SegaXtreme](https://segaxtreme.net) forums. Click the preview screenshot below to access it.
+
+[![Tutorial Screenshot](https://github.com/DerekPascarella/Saturn-15bpp-Graphics-Converter/blob/main/tutorial.png?raw=true)](https://segaxtreme.net/threads/saturn-15bpp-tool-tutorial.25687/)
